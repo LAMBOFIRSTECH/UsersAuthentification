@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Enrollment Form";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Enrollment page</h1>
+ 
+</div>
+
+<!-- LOGN IN FORM by Omar Dsoky -->
+<form>
+   <!--   con = Container  for items in the form-->
+   <div class="con">
+   <!--     Start  header Content  -->
+   <header class="head-form">
+      <h2>Enrollment</h2>
+      <!--     A welcome message or an explanation of the login form -->
+      <p>Enter your informations here !</p>
+   </header>
+   <!--     End  header Content  -->
+   <br>
+   <div class="field-set">
+     
+      <!--   user name -->
+         <span class="input-item">
+           <i class="fa fa-user-circle"></i>
+         </span>
+        <!--   user name Input-->
+         <input class="form-input" name="txt-input" type="text" placeholder="Nom" required>
+         <input class="form-input" surname="txt-input" type="text" placeholder="Prenom" required>
+         <input class="form-input" dob="txt-input" type="text" placeholder="Date de naissance" required>
+         <input class="form-input" email="txt-input" type="text" placeholder="Email" required>
+         <input class="form-input" phone="txt-input" type="text" placeholder="Numéro de téléphone" required>
+         <input class="form-input" Adress="txt-input" type="text" placeholder="Adresse de domicile" required>
+
+
+<!--        buttons -->
+<!--      button LogIn -->
+      <button class="log-in"> Enregistrer </button> 
+      <!--      Aligner ces deux boutons horizontalement dans l'affichage -->
+      <button class="log-out" reset> Annuler </button>
+      
+   </div>
+  
+  <!-- End Form -->
+</form>
+</div>
+
