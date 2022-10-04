@@ -1,0 +1,25 @@
+#------------------------------------------------------------------
+
+## Partie logique du code 
+    > Créer une classe de base avec les attributs de l'utilisateur.
+    >  
+#------------------------------------------------------------------
+
+#------------------------------------------------------------------
+
+## Partie logique organisation du code 
+    > Mettre la chaine de connexion à la BD dans le fichier de 
+    configuration appSettings.json.
+    > On va pouvoir générer un code pin au client et l'enregistrer dans la BD.
+        >> La génération du pin dépend du remplissage du formulaire d'authentification par le client.
+#------------------------------------------------------------------
+
+>>>> Créer la classe utilisateur avec ses attributs et ses méthodes.
+
+        self.Name=name
+        self.Surname=surname
+        self.Card=id_card
+        self.Dob=dob  
+        self.Adress_mail=email_adress
+        self.Tel_mobil=mobil_phone_number
+        self.Home_adress=home_adress
