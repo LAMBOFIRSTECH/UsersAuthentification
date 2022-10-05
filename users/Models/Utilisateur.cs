@@ -1,5 +1,7 @@
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 namespace users.Models;
+
 
 public class Utilisateur
 {
@@ -7,6 +9,7 @@ public class Utilisateur
     public string? Nom { get; set; }
     public string? Prenom { get; set; }
     [DisplayName("Date de naissance")]
+    [DataType(DataType.Date)]
     public DateTime Dob { get; }
     public string? Email { get; set; }
     public int? Phone { get; set; }
