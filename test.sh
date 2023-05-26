@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env python3
 
 # Définir le chemin d'accès complet au fichier script.py
 script_path=.
