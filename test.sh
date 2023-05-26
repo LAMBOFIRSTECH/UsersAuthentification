@@ -1,4 +1,5 @@
 #!/bin/bash
 
-python3 test.py
+$(which python3) script.py
+
 
