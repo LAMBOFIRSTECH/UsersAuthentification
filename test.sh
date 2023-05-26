@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Définir le chemin d'accès complet au fichier script.py
-script_path="$getPrivateGithubRepo/test.py"
+script_path=pwd
 
 # Exécuter le script en utilisant python3 avec le chemin d'accès complet
-$(which python3) "$script_path"
-echo $getPrivateGithubRepo
+$(which python3) "$script_path/test.py"
